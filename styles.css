@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.div-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.div-1 img {
+
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+
+}
+
+.client-info {
+    margin-bottom: 20px;
+}
+
+.client-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+}
+
+
+.cuts {
+    margin-top: 20px;
+    
+}
+
+#cuts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#add-cut {
+    background: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+#add-cut:hover {
+    background: #45a049;
+}
+.cut {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background: #ddd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+}
+
+.cut.completed {
+    background: #4caf50;
+}
